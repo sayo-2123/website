@@ -57,7 +57,7 @@ section
   margin: 0 0 40px;
 }
 .section-button{
-  margin-top: 40px;
+  margin: 40px 0 40px;
   text-align: center;
 }
 
@@ -217,5 +217,63 @@ form
 }
 .form-button{
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
+}
+
+/*
+works
+*/
+.works{
+  margin: 40px 0;
+  padding: 20px;
+  text-align: center;
+}
+.work > img{
+  margin: 0 15px;
+}
+
+/*
+footer
+*/
+.footer{
+  background-color: #333;
+  color: #fff;
+}
+.footer-map{
+  margin: 0;
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-mapinfo > iframe{
+  width: 60%;
+}
+.footer-mapinfo{
+  width: 40%;
+  padding: 15px;
+
+}
+.footer-maplogo{
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.footer-maplogo > svg{
+  fill: transparent;
+}
+
+.footer-mapaddress{
+  font-style: normal;
+}
+.footer-mapaddress > a {
+  color: #fff;
+}
+.footer-line{
+  border-color: #444;
+}
+.footer-copy{
+  display: block;
+  text-align: center;
+  padding: 10px;
 }
